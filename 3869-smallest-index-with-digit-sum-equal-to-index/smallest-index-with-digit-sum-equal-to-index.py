@@ -5,7 +5,7 @@ class Solution(object):
             n = nums[i] 
             while n > 0:
                 d += n%10
-                n //= 10
+                n = n// 10
             if d == i:
                 return i
         return -1
